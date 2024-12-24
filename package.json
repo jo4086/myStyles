@@ -1,0 +1,28 @@
+{
+    "name": "@jo/custom-styled",
+    "version": "1.0.0",
+    "description": "Reusable styled components and utilities",
+    "main": "dist/index.js",
+    "module": "dist/index.module.js",
+    "scripts": {
+        "build": "babel src --out-dir dist",
+        "test": "jest"
+    },
+    "dependencies": {
+        "styled-components": "^6.1.13"
+    },
+    "peerDependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": ["ui", "styled-components", "react"],
+    "author": "jo4086",
+    "licences": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jo4086/myStyles.git"
+    }
+}
